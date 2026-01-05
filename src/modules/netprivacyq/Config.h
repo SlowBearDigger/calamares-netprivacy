@@ -28,7 +28,7 @@ public:
     void setFixedMac( const QString& mac );
     void setIpv6Privacy( bool enabled );
     Q_INVOKABLE bool validateMacAddress( const QString& mac ) const;
-    void finalizeGlobalStorage() const;
+    Q_INVOKABLE void finalizeGlobalStorage() const;
 
 signals:
     void macModeChanged( int mode );
