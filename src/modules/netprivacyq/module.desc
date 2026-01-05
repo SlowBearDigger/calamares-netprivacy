@@ -1,0 +1,7 @@
+# SPDX-FileCopyrightText: 2026 Bounty Contributors
+# SPDX-License-Identifier: CC0-1.0
+---
+type:       "view"
+name:       "netprivacy"
+interface:  "qtplugins"
+load:       "libcalamares_viewmodule_netprivacyq.so"
